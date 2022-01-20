@@ -248,7 +248,7 @@ def main():
             if i % args.log_interval == 0:
                 agent.save()
     else:
-        raise NameError("mode wrong!!!")
+        raise NameError(" wrong mode!")
 
 if __name__ == '__main__':
     main()
